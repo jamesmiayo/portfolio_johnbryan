@@ -7,7 +7,6 @@ nav {
   flex-direction: row;
   justify-content: space-evenly;
   z-index: 100;
-  position: fixed;
   rotate: 0deg;
   border-radius: 0.5rem;
   backdrop-filter: blur (15px);

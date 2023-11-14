@@ -1,0 +1,18 @@
+.container__banner {
+  background: var(--color-red);
+  clip-path: polygon(
+    40% 19%,
+    40% 0,
+    100% 0,
+    100% 78%,
+    70% 79%,
+    70% 100%,
+    0 100%,
+    0 19%
+  );
+  border-radius: 1rem;
+}
+
+.img__banner {
+  border-radius: 1rem 1rem;
+}
