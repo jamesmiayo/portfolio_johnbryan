@@ -16,6 +16,7 @@ nav {
 nav h3 {
   color: var(--color-red);
   font-size: 1rem;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -40,5 +41,5 @@ nav a.active {
 
 .icons {
   height: 35px;
-  width: 36px;
+  width: 35px;
 }
