@@ -119,12 +119,13 @@ a:hover {
 }
 
 .btn-primary {
-  background: var(--color-orange-variant);
-  color: var(--color-black-variant);
+  background: var(--color-orange);
+  color: var(--color-darkcolor);
 }
 
 .btn-secondary {
-  color: var(--color-orange-variant);
+  background: var(--color-red);
+  color: var(--color-white);
 }
 
 img {

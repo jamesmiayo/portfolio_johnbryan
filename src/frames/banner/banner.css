@@ -1,12 +1,11 @@
-.container__banner {
-  background: var(--color-red);
+.container__imgbanner {
   clip-path: polygon(
-    40% 19%,
-    40% 0,
+    9.3rem 19%,
+    9.3rem 0,
     100% 0,
     100% 78%,
-    70% 79%,
-    70% 100%,
+    18.3rem 14.6rem,
+    18.3rem 100%,
     0 100%,
     0 19%
   );
@@ -14,5 +13,18 @@
 }
 
 .img__banner {
+  height: 18.75rem;
+  width: 430px;
   border-radius: 1rem 1rem;
+}
+
+.btn__contact {
+  position: relative;
+  top: -300px;
+}
+
+.btn__about {
+  position: relative;
+  top: -60px;
+  right: -150px;
 }
