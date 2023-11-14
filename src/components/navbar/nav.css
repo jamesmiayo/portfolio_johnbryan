@@ -1,0 +1,44 @@
+nav {
+  width: 96%;
+  margin: 2%;
+  padding: 0.5rem;
+  background: var(--color-lightbrown);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  z-index: 100;
+  position: fixed;
+  rotate: 0deg;
+  border-radius: 0.5rem;
+  backdrop-filter: blur (15px);
+}
+
+nav h3 {
+  color: var(--color-red);
+  font-size: 1rem;
+  text-align: center;
+}
+
+nav a {
+  background: transparent;
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  color: var(--color-red);
+  rotate: 0deg;
+}
+
+nav a:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+nav a.active {
+  background: var(--color-darkcolor);
+  color: var(--color-white);
+}
+
+.icons {
+  height: 35px;
+  width: 35px;
+}

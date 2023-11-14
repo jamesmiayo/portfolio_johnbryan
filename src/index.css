@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600&display=swap');
 
 * {
   margin: 0;
@@ -11,20 +12,17 @@
 }
 
 :root {
-  /* --color-black: #030202;
-  --color-black-variant: #292828; */
-  --color-black: #2d2d2d;
-  --color-black-variant: #464444;
-  --color-black-variantv2: #292828;
+  --color-orange: #ed8063;
+  --color-red: #aa455b;
+  --color-lightbrown: #e7d6c4;
+  --color-darkcolor: #303f52;
 
-  --color-black-v2: #201e1f;
-  --color-orange: #ff6f00;
-  --color-orange-variant: #f07900;
-  --color-orange-v2: #ffcda2;
+  /* staple */
   --color-oasis: #fce7cc;
   --color-white: #fff;
-  --color-green: #5b7b7a;
   --color-light: rgba(255, 255, 255, 0.6);
+  --color-dark: #2a3133;
+  --color-gray: #d9d9d9
 
   --transition: all 400ms ease;
 
@@ -35,7 +33,7 @@
 
 html {
   scroll-behavior: smooth;
-  background: var(--color-black);
+  background: var(--color-darkcolor);
 }
 
 ::-webkit-scrollbar {
@@ -43,7 +41,7 @@ html {
 }
 
 body {
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'Inter', sans-serif;
   background: var(--color-black);
   color: var(--color-white);
   line-height: 1.7;
@@ -63,7 +61,7 @@ h2 {
   font-weight: 500;
 }
 h3 {
-  font-weight: 500;
+  font-weight: 400;
 }
 h4 {
   font-weight: 500;
