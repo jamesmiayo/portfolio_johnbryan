@@ -11,7 +11,7 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState('#home');
 
   return (
-    <nav>
+    <nav className="container">
       <div className="nav_btn">
         <a
           href="#home"

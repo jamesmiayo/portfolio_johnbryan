@@ -28,7 +28,7 @@
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-sm: 96%;
+  --container-width-sm: 100%;
 }
 
 html {
@@ -73,8 +73,8 @@ h5 {
 h1 {
   font-size: 2.5rem;
   text-align: center;
-  color: var(--color-orange-v2);
-  padding-bottom: 3rem;
+  color: var(--color-orange);
+  padding-bottom: 0rem;
 }
 
 h5 {
@@ -114,7 +114,7 @@ a:hover {
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid var(--color-oasis);
+  border: 2px solid var(--color-darkcolor);
   transition: var(--transition);
 }
 
@@ -125,7 +125,7 @@ a:hover {
 
 .btn-secondary {
   background: var(--color-red);
-  color: var(--color-white);
+  color: var(--color-lightbrown);
 }
 
 img {
@@ -134,47 +134,18 @@ img {
   object-fit: cover;
 }
 
-/* ==================MEDIA QUERIES (medium devices) ===========================*/
+/* ==================MEDIA QUERIES (medium devices) =========================== */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
-
-  section {
-    margin-top: 1rem;
-  }
-}
-/* ==================MEDIA QUERIES (small devices) ===========================*/
+} */
+/* ==================MEDIA QUERIES (small devices) =========================== */
 
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
-
-  section > h5 {
-    margin-bottom: 2rem;
-  }
-}
-@media screen and (max-height: 600px) {
-  .profile__socials {
-    visibility: hidden;
-  }
-  .cta {
-    visibility: hidden;
-  }
-  #profile {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .profile__container {
-    visibility: hidden;
-  }
 }
 
-@media screen and (max-height: 200px) {
-  #profile h5 {
-    visibility: hidden;
-  }
-}

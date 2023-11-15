@@ -1,20 +1,16 @@
+.container__banner {
+  width: 100%;
+  margin: 0%;
+  padding: 0.5rem;
+}
 .container__imgbanner {
-  clip-path: polygon(
-    9.3rem 19%,
-    9.3rem 0,
-    100% 0,
-    100% 78%,
-    18.3rem 14.6rem,
-    18.3rem 100%,
-    0 100%,
-    0 19%
-  );
   border-radius: 1rem;
 }
 
 .img__banner {
-  height: 18.75rem;
-  width: 430px;
+  height: 300px;
+  /* width: 26.875rem; */
+  width: 100%;
   border-radius: 1rem 1rem;
 }
 
@@ -24,7 +20,21 @@
 }
 
 .btn__about {
+  position: absolute;
+  top: 247px;
+  right: -1px;
+}
+
+.div-about {
+  border-color: white;
+  border-width: 6px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: yellow;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  top: -60px;
-  right: -150px;
 }
