@@ -5,8 +5,8 @@
 }
 
 .img__logo {
-  height: 70px;
-  width: 200px;
+  height: 100%;
+  width: 7rem;
 }
 
 .card__logo {
@@ -18,4 +18,5 @@
   background-color: #e7d6c4;
   border-radius: 0.5rem;
   opacity: 0.6;
+  padding: 0.2rem;
 }
