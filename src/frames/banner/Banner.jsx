@@ -4,12 +4,18 @@ import banner from '../../images/arch.jpg';
 
 const Banner = () => {
   return (
-    <>
+    <section id="#banner" className="container container__banner">
       <div>
-        <h1>Looking for an </h1>
-        <h1 className="highlights">Architect</h1>
+        <h1>
+          Looking for an1
+          <span>
+            <h1 className="highlights">
+              Architect <span>?</span>
+            </h1>
+          </span>
+        </h1>
       </div>
-      <div className="container container__banner">
+      <div>
         <div className="banner">
           <div className="container__imgbanner">
             <img src={banner} alt="banner" className="img__banner" />
@@ -23,7 +29,7 @@ const Banner = () => {
           </a>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 
