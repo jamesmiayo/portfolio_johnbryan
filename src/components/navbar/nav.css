@@ -22,11 +22,12 @@ nav h3 {
 nav a {
   background: transparent;
   padding: 0.8rem;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   display: flex;
   justify-content: center;
   color: var(--color-red);
   rotate: 0deg;
+  border-radius: 0.5rem;
 }
 
 nav a:hover {
