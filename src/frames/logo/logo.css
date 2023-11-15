@@ -1,0 +1,21 @@
+.container__logo {
+  margin: 0;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.img__logo {
+  height: 70px;
+  width: 200px;
+}
+
+.card__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background-color: #e7d6c4;
+  border-radius: 0.5rem;
+  opacity: 0.6;
+}
