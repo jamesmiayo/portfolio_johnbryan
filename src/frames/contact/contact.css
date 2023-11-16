@@ -1,3 +1,72 @@
-body {
-  background-color: red;
+.container__contact {
+  margin: 0;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-content: center;
+}
+#contact > h2 {
+  border-bottom: 2px dotted;
+  margin: 0 2rem;
+  padding-bottom: 0.2rem;
+}
+
+.text-email {
+  border-radius: 0.5rem;
+  height: 2rem;
+}
+.textarea-email {
+  height: 5rem;
+  border-radius: 0.5rem;
+}
+
+.btn_sendmail {
+  border: 2px solid var(--color-orange);
+  background-color: transparent;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 160px;
+  align-self: center;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+}
+
+button:hover {
+  background-color: var(--color-red);
+}
+
+.contact__option {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+}
+
+.contact__icon > h4 {
+  text-align: center;
+  padding: 0;
+}
+
+.contact__option-icon {
+  margin-right: 1rem;
+}
+
+.small-text {
+  color: var(--color-orange);
 }
