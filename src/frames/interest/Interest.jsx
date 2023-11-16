@@ -20,6 +20,7 @@ const Interest = () => {
               survived not only five centuries, but also the leap into
               electronic typesetting 300+ character lang
             </small>
+            <br />
             <a href="#projects" className="btn btn-secondary">
               PROJECTS
             </a>
@@ -37,6 +38,7 @@ const Interest = () => {
               survived not only five centuries, but also the leap into
               electronic typesetting 300+ character lang
             </small>
+            <br />
             <a href="#works" className="btn btn-primary">
               WORKS
             </a>

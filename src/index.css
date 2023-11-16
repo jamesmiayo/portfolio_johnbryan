@@ -66,13 +66,17 @@ h2 {
   font-size: 2rem;
   text-align: center;
   color: var(--color-orange);
-  padding-bottom: 0rem;
+  padding-bottom: 3rem;
 }
 h3 {
   font-weight: 400;
 }
 h4 {
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: left;
+  color: var(--color-orange);
+  padding-bottom: 1rem;
 }
 h5 {
   font-weight: 500;

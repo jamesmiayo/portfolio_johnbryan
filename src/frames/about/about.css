@@ -1,0 +1,27 @@
+.container__about {
+  margin: 0;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card__about {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.img__bryan {
+  height: 15rem;
+  width: 100%;
+  position: relative;
+  top: 90px;
+  box-shadow: 10px 10px 10px 12px var(--color-red);
+  margin-right: 2rem;
+}
+
+.container__about .text-architect {
+  color: var(--color-red);
+  font-weight: 600;
+}

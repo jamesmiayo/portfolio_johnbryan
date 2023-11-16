@@ -4,7 +4,7 @@ import banner from '../../images/arch.jpg';
 
 const Banner = () => {
   return (
-    <section id="#banner" className="container container__banner">
+    <section id="home" className="container container__banner">
       <div>
         <h1>
           Looking for a freelance
@@ -24,7 +24,7 @@ const Banner = () => {
             CONTACT ME
           </a>
 
-          <a href="#contact" className="btn btn-secondary btn__about">
+          <a href="#about" className="btn btn-secondary btn__about">
             ABOUT ME
           </a>
         </div>
