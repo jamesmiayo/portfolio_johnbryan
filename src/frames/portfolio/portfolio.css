@@ -1,0 +1,31 @@
+.container__portfolio {
+  margin: 0;
+  padding: 0.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-lightbrown);
+  border-radius: 0.5rem;
+}
+.card__portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio__details {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.img__portfolio {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.info__detail .text-detail {
+  color: var(--color-darkcolor);
+  text-align: left;
+  font-size: 0.7rem;
+}

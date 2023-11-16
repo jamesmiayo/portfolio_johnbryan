@@ -82,6 +82,14 @@ h5 {
   font-weight: 500;
 }
 
+h6{
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: left;
+  color: var(--color-red);
+  padding-bottom: 0rem;
+}
+
 .highlights{
   font-weight: 500;
   font-size: 3rem;
@@ -99,8 +107,11 @@ section {
 }
 
 section > h2 {
+  font-weight: 400;
+  font-size: 2rem;
   text-align: center;
-  color: var(--color-light);
+  color: var(--color-orange);
+  padding-bottom: 3rem;
 }
 section > h5 {
   text-align: center;

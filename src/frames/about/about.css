@@ -13,11 +13,11 @@
 }
 
 .img__bryan {
-  height: 15rem;
-  width: 100%;
+  height: 100%;
+  width: 10rem;
   position: relative;
-  top: 90px;
-  box-shadow: 10px 10px 10px 12px var(--color-red);
+  top: 12px;
+  box-shadow: 10px 10px 5px 12px var(--color-red);
   margin-right: 2rem;
 }
 
