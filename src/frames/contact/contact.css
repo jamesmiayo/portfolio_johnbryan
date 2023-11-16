@@ -21,10 +21,12 @@ form {
 .text-email {
   border-radius: 0.5rem;
   height: 2rem;
+  padding-left: 1rem;
 }
 .textarea-email {
   height: 5rem;
   border-radius: 0.5rem;
+  padding-left: 1rem;
 }
 
 .btn_sendmail {
@@ -69,4 +71,11 @@ button:hover {
 
 .small-text {
   color: var(--color-orange);
+}
+
+::placeholder {
+  color: var(--color-red);
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  font-family: 'Inter', sans-serif;
 }
