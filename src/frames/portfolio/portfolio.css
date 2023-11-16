@@ -4,24 +4,25 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: var(--color-lightbrown);
-  border-radius: 0.5rem;
 }
 .card__portfolio {
   display: flex;
   flex-direction: column;
+  background-color: var(--color-lightbrown);
+  border-radius: 0.5rem;
 }
 
 .portfolio__details {
   display: flex;
   flex-direction: row;
   align-content: space-between;
+  padding: 0.5rem;
 }
 
 .img__portfolio {
   height: 100%;
   width: 100%;
-  padding-bottom: 1rem;
+  padding: 0.5rem 0.5rem 1rem;
 }
 
 .info__detail .text-detail {
