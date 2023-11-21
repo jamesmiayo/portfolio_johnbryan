@@ -66,14 +66,13 @@ const Nav = () => {
 
                 <h3>Contact</h3>
               </div>
-
-              <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-                <FaTimes size={30} />
-              </button>
-              <button className="nav-btn" onClick={showNavbar}>
-                <FaBars size={30} />
-              </button>
             </nav>
+            <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+              <FaTimes size={30} />
+            </button>
+            <button className="nav-btn" onClick={showNavbar}>
+              <FaBars size={30} />
+            </button>
           </div>
         </div>
       </section>

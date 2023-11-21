@@ -102,9 +102,9 @@ h5 {
   text-align: center;
   color: var(--color-oasis);
 }
-section {
+/* section {
   margin-top: 2rem;
-}
+} */
 
 section > h2 {
   font-weight: 400;

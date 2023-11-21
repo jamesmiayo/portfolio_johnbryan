@@ -9,7 +9,7 @@ nav {
 }
 .navbar__container nav {
   display: flex;
-  float: right;
+  /* float: right; */
 }
 .navbar__container a {
   margin: 0 1rem;
@@ -19,12 +19,13 @@ nav {
 .navbar__container .nav-btn {
   padding: 5px;
   cursor: pointer;
-  background: transparent;
+  background: var(--color-dark);
   border: none;
   outline: none;
   color: var(--textColor);
   visibility: hidden;
   opacity: 0;
+  position: relative;
 }
 
 nav h3 {
@@ -65,24 +66,30 @@ nav a.active {
   .navbar__container .nav-btn {
     visibility: visible;
     opacity: 1;
+    position: fixed;
+    right: 25px;
+    top: 1px;
+    z-index: 1000;
+    color: var(--color-red);
+    border-radius: 0.5rem;
   }
 
   .navbar__container nav {
     position: fixed;
     top: 0;
-    right: 0;
+    right: 5px;
     height: 65%;
-    width: 15%;
+    width: 5rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     gap: 1.5rem;
     background-color: var(--color-lightbrown);
     transition: var(--transition);
     transform: translateY(-100vh);
     margin-top: 1.4rem;
-    z-index: 1000;
+    z-index: 4;
   }
 
   .navbar__container .responsive_nav {
@@ -93,7 +100,6 @@ nav a.active {
     position: absolute;
     top: 2.4rem;
     right: 3.5rem;
-    z-index: 1001;
   }
 
   nav a {
