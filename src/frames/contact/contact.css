@@ -6,15 +6,16 @@
   position: relative;
 }
 
-form {
+.mail__container form {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  align-content: center;
+  padding: 0 4rem;
 }
+
 #contact > h2 {
   border-bottom: 2px dotted;
-  margin: 0 2rem;
+  margin: 2rem 2rem;
   padding-bottom: 0.2rem;
 }
 
@@ -36,7 +37,7 @@ form {
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
-  width: 160px;
+  width: 8rem;
   align-self: center;
   border-radius: 0.5rem;
   margin: 0.5rem;
@@ -76,6 +77,45 @@ button:hover {
 ::placeholder {
   color: var(--color-red);
   padding-left: 1rem;
+  padding-top: 0.3rem;
   font-size: 0.8rem;
   font-family: 'Inter', sans-serif;
+}
+
+/* ==================MEDIA QUERIES (smartphones - small devices) =========================== */
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  .mail__container form {
+    gap: 0.5rem;
+    padding: 0 5rem;
+  }
+}
+
+/* ==================MEDIA QUERIES (tablets - medium devices) =========================== */
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  .mail__container form {
+    gap: 0.5rem;
+    padding: 0 10rem;
+  }
+}
+
+/* ==================MEDIA QUERIES (desktop - large devices) =========================== */
+
+@media screen and (min-width: 1680px) {
+  .container {
+    width: var(--container-width-lg);
+  }
+  .mail__container form {
+    gap: 0.5rem;
+    padding: 0 20rem;
+  }
 }

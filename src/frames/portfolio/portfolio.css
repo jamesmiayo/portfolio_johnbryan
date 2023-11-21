@@ -8,7 +8,7 @@
 .card__portfolio {
   display: flex;
   flex-direction: column;
-  background-color: var(--color-lightbrown);
+
   border-radius: 0.5rem;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .img__portfolio {
-  height: 100%;
+  height: 30rem;
   width: 100%;
   padding: 0.5rem 0.5rem 1rem;
 }
@@ -29,4 +29,28 @@
   color: var(--color-darkcolor);
   text-align: left;
   font-size: 0.7rem;
+}
+
+/* ==================MEDIA QUERIES (smartphones - small devices) =========================== */
+
+@media screen and (max-width: 767px) {
+  /* .container {
+    width: var(--container-width-sm);
+  } */
+}
+
+/* ==================MEDIA QUERIES (tablets - medium devices) =========================== */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* .container {
+    width: var(--container-width-md);
+  } */
+}
+
+/* ==================MEDIA QUERIES (desktop - large devices) =========================== */
+
+@media screen and (min-width: 1024px) {
+  /* .container {
+    width: var(--container-width-lg);
+  } */
 }

@@ -1,6 +1,21 @@
 import React from 'react';
 import './portfolio.css';
-import img_portf1 from '../../images/img3.jpg';
+import img_portf1 from '../../images/img1.jpg';
+import img_portf2 from '../../images/img2.jpg';
+import img_portf3 from '../../images/img3.jpg';
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+import './styles.css';
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const Portfolio = () => {
   return (
@@ -8,30 +23,45 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="container container__portfolio">
         <div className="card__portfolio">
-          <img src={img_portf1} alt="img_portf1" className="img__portfolio" />
-          <div className="portfolio__details">
-            <div className="portfolio__info">
-              <h6>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to
-              </h6>
-            </div>
-            <div className="info__detail">
-              <small className="text-detail">
-                <br />
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem
-              </small>
-            </div>
-          </div>
+          <Swiper
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+              delay: 5500,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={true}
+            modules={[Autoplay, Pagination, Navigation]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <img
+                src={img_portf1}
+                alt="img_portf1"
+                className="img__portfolio"
+              />
+              <h2>Project 1</h2>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={img_portf2}
+                alt="img_portf2"
+                className="img__portfolio"
+              />
+              <h2>Project 2</h2>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={img_portf3}
+                alt="img_portf3"
+                className="img__portfolio"
+              />
+              <h2>Project 3</h2>
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </section>
