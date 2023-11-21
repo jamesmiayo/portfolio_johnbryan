@@ -1,15 +1,30 @@
 nav {
   width: 100%;
-  margin: 2%;
   padding: 0.5rem;
   background: var(--color-lightbrown);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  z-index: 100;
-  rotate: 0deg;
   border-radius: 0.5rem;
-  backdrop-filter: blur (15px);
+}
+.navbar__container nav {
+  display: flex;
+  float: right;
+}
+.navbar__container a {
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.navbar__container .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--textColor);
+  visibility: hidden;
+  opacity: 0;
 }
 
 nav h3 {
@@ -42,4 +57,46 @@ nav a.active {
 .icons {
   height: 35px;
   width: 35px;
+}
+
+/* ==================MEDIA QUERIES (smartphones - small devices) =========================== */
+
+@media screen and (max-width: 767px) {
+  .navbar__container .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .navbar__container nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 65%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--color-lightbrown);
+    transition: var(--transition);
+    transform: translateY(-100vh);
+    margin-top: 1.4rem;
+    z-index: 1000;
+  }
+
+  .navbar__container .responsive_nav {
+    transform: none;
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2.4rem;
+    right: 3.5rem;
+    z-index: 1001;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+  }
 }

@@ -2,9 +2,41 @@
 /* ==================MEDIA QUERIES (smartphones - small devices) =========================== */
 
 @media screen and (max-width: 767px) {
-  .container {
-    width: var(--container-width-sm);
-  }
+   .navbar__container .nav-btn {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .navbar__container nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 65%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: var(--mainColor);
+      transition: var(--transition);
+      transform: translateY(-100vh);
+      margin-top: 1.4rem;
+    }
+
+    .navbar__container .responsive_nav {
+      transform: none;
+    }
+
+    nav .nav-close-btn {
+      position: absolute;
+      top: 2.4rem;
+      right: 3.5rem;
+    }
+
+    nav a {
+      font-size: 1.5rem;
+    }
 }
 
 /* ==================MEDIA QUERIES (tablets - medium devices) =========================== */

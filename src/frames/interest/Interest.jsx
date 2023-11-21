@@ -20,8 +20,8 @@ const Interest = () => {
               to create innovative and sustainable spaces for the future.
             </small>
             <br />
-            <a href="#portfolio" className="btn btn-secondary">
-              PROJECTS
+            <a href="#about" className="btn btn-secondary">
+              ABOUT ME
             </a>
           </div>
         </div>
@@ -38,8 +38,8 @@ const Interest = () => {
               spaces that enhance our lives in countless ways.
             </small>
             <br />
-            <a href="#works" className="btn btn-primary">
-              WORKS
+            <a href="#portfolio" className="btn btn-primary">
+              PROJECTS
             </a>
           </div>
           <img src={img__design2} alt="" className="img__interest2" />

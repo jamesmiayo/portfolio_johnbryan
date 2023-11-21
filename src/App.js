@@ -11,7 +11,6 @@ import Contact from './frames/contact/Contact';
 const App = () => {
   return (
     <div>
-      <div>VERSION CONTROL: 1</div>
       <Nav />
       <Banner />
       <Interest />
