@@ -13,15 +13,14 @@ const Interest = () => {
           <div className="interest__detail1">
             <h3>Modern design</h3>
             <small>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting 300+ character lang
+              Modern architecture has had a profound impact on the way we live,
+              work, and interact with our surroundings. Its legacy continues to
+              inspire contemporary architects and designers, who draw upon its
+              principles of functionality, minimalism, and connection to nature
+              to create innovative and sustainable spaces for the future.
             </small>
             <br />
-            <a href="#projects" className="btn btn-secondary">
+            <a href="#portfolio" className="btn btn-secondary">
               PROJECTS
             </a>
           </div>
@@ -29,14 +28,14 @@ const Interest = () => {
 
         <div className="card__interest2">
           <div className="interest__detail2">
-            <h3>Modern design</h3>
             <small>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting 300+ character lang
+              Modern design architecture has left an indelible mark on the
+              world, shaping our cities, homes, and workplaces with its emphasis
+              on functionality, clean lines, and a deep respect for the natural
+              world. The legacy of modern design architects continues to inspire
+              contemporary architects and designers, guiding them towards
+              creating sustainable, functional, and aesthetically pleasing
+              spaces that enhance our lives in countless ways.
             </small>
             <br />
             <a href="#works" className="btn btn-primary">

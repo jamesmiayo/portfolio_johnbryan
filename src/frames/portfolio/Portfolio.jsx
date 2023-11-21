@@ -27,8 +27,9 @@ const Portfolio = () => {
             spaceBetween={30}
             centeredSlides={true}
             autoplay={{
-              delay: 5500,
+              delay: 2000,
               disableOnInteraction: false,
+              pauseOnMouseEnter: true,
             }}
             pagination={{
               clickable: true,

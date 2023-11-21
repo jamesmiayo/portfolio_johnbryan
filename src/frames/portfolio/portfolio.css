@@ -22,7 +22,8 @@
 .img__portfolio {
   height: 30rem;
   width: 100%;
-  padding: 0.5rem 0.5rem 1rem;
+  /* padding: 0.5rem 0.5rem 1rem; */
+  border-radius: 0.5rem;
 }
 
 .info__detail .text-detail {

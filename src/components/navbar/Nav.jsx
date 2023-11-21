@@ -26,9 +26,9 @@ const Nav = () => {
 
         <div className="nav_btn">
           <a
-            href="#works"
-            onClick={() => setActiveNav('#works')}
-            className={activeNav === '#works' ? 'active' : ''}
+            href="#portfolio"
+            onClick={() => setActiveNav('#portfolio')}
+            className={activeNav === '#portfolio' ? 'active' : ''}
           >
             <GiClockwork className="icons" />
           </a>

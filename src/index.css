@@ -158,18 +158,29 @@ img {
   object-fit: cover;
 }
 
-/* ==================MEDIA QUERIES (medium devices) =========================== */
 
-/* @media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-} */
-/* ==================MEDIA QUERIES (small devices) =========================== */
 
-@media screen and (max-width: 600px) {
+/* ==================MEDIA QUERIES (smartphones - small devices) =========================== */
+
+@media screen and (max-width: 767px) {
   .container {
     width: var(--container-width-sm);
   }
 }
 
+/* ==================MEDIA QUERIES (tablets - medium devices) =========================== */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    width: var(--container-width-md);
+  }
+}
+
+/* ==================MEDIA QUERIES (desktop - large devices) =========================== */
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: var(--container-width-lg);
+  }
+
+}

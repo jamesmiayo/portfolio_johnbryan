@@ -9,12 +9,11 @@
 .card__about {
   display: flex;
   flex-direction: row;
-  position: relative;
 }
 
 .img__bryan {
-  height: 100%;
-  width: 10rem;
+  height: 10rem;
+  width: 100%;
   position: relative;
   top: 12px;
   box-shadow: 10px 10px 5px 12px var(--color-red);
@@ -24,4 +23,101 @@
 .container__about .text-architect {
   color: var(--color-red);
   font-weight: 600;
+}
+
+/* ==================MEDIA QUERIES (smartphones - small devices) =========================== */
+
+@media screen and (max-width: 480px) {
+  .card__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card__about-detail > h4 {
+    margin-top: 2rem;
+  }
+  .img__bryan {
+    height: 100%;
+    width: 10rem;
+    position: relative;
+    top: 12px;
+    box-shadow: 10px 10px 5px 12px var(--color-red);
+    margin-right: 2rem;
+  }
+}
+
+/* ==================MEDIA QUERIES (tablets - medium devices) =========================== */
+
+@media screen and (min-width: 481px) and (max-width: 769px) {
+  .card__about {
+    display: flex;
+    flex-direction: column;
+  }
+  .card__about-detail > h4 {
+    margin-top: 4rem;
+  }
+  .card__about-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img__bryan {
+    height: 100%;
+    width: 15rem;
+    position: relative;
+    top: 12px;
+    box-shadow: 10px 10px 5px 12px var(--color-red);
+    margin-right: 2rem;
+  }
+}
+
+/* ==================MEDIA QUERIES (tablets - larger tablets or portrait) =========================== */
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .card__about {
+    display: flex;
+    flex-direction: column;
+  }
+  .card__about-detail > h4 {
+    margin-top: 4rem;
+  }
+  .card__about-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img__bryan {
+    height: 100%;
+    width: 20rem;
+    position: relative;
+    top: 12px;
+    box-shadow: 10px 10px 5px 12px var(--color-red);
+    margin-right: 2rem;
+  }
+}
+
+/* ==================MEDIA QUERIES (desktop - large devices) =========================== */
+
+@media screen and (min-width: 1280px) {
+  .card__about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card__about-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .img__bryan {
+    height: 100%;
+    width: 25rem;
+    position: relative;
+    top: 12px;
+    box-shadow: 10px 10px 5px 12px var(--color-red);
+    margin-right: 2rem;
+  }
+  .card__about small {
+    margin-top: 3rem;
+  }
 }
