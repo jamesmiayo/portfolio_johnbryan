@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.css';
 import img_bryan from '../../images/bryan.png';
+import CV from '../../assets/John-Bryan-Miayo-CV-2023.pdf';
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
               </h4>
 
               <br />
-              <a href="#works" className="btn btn-primary">
+              <a href={CV} className="btn btn-primary">
                 Download CV
               </a>
             </div>

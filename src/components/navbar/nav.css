@@ -130,7 +130,7 @@ nav a.active {
 
   .navbar__container .responsive_nav {
     transform: none;
-    animation: 10s fadeout1;
+    animation: 10s fadeout;
     animation-fill-mode: forwards;
     visibility: visible;
   }

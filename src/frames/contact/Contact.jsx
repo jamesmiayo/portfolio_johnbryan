@@ -70,11 +70,11 @@ const Contact = () => {
           </div>
           <div className="contact__icon">
             <MdCall className="contact__option-icon" size={25} />
-            <small className="small-text">12321321321312</small>
+            <small className="small-text">09982964680</small>
           </div>
           <div className="contact__icon">
             <MdOutlineEmail className="contact__option-icon" size={25} />
-            <small className="small-text">jbmiayo@yahoo.com</small>
+            <small className="small-text">johnbryanmiayo@gmail.com</small>
           </div>
         </article>
       </div>
