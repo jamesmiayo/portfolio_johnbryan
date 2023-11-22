@@ -7,8 +7,6 @@ import { MdMarkEmailUnread } from 'react-icons/md';
 
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { MdArchitecture } from 'react-icons/md';
-import { SiProtractor } from 'react-icons/si';
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#home');
