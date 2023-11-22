@@ -5,7 +5,7 @@ import banner from '../../images/arch.jpg';
 const Banner = () => {
   return (
     <section id="home" className="container container__banner">
-      <div>
+      <div className="banner-text">
         <h1>
           Looking for a freelance
           <span>

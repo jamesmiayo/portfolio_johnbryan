@@ -7,6 +7,8 @@ import { MdMarkEmailUnread } from 'react-icons/md';
 
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { MdArchitecture } from 'react-icons/md';
+import { SiProtractor } from 'react-icons/si';
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#home');
@@ -66,14 +68,14 @@ const Nav = () => {
 
                 <h3>Contact</h3>
               </div>
+              <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+                <MdArchitecture size={30} />
+              </button>
             </nav>
-            <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-              <FaTimes size={30} />
-            </button>
-            <button className="nav-btn" onClick={showNavbar}>
-              <FaBars size={30} />
-            </button>
           </div>
+          <button className="nav-btn nav-open-btn" onClick={showNavbar}>
+            <SiProtractor size={30} />
+          </button>
         </div>
       </section>
     </>

@@ -38,3 +38,25 @@
   flex-direction: column;
   position: relative;
 }
+/* ==================MEDIA QUERIES (smartphones - small devices) =========================== */
+
+@media screen and (max-width: 480px) {
+  .banner-text h1 {
+    font-size: x-large;
+  }
+}
+
+/* ==================MEDIA QUERIES (tablets - medium devices) =========================== */
+
+@media screen and (min-width: 481px) and (max-width: 769px) {
+}
+
+/* ==================MEDIA QUERIES (tablets - larger tablets or portrait) =========================== */
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+}
+
+/* ==================MEDIA QUERIES (desktop - large devices) =========================== */
+
+@media screen and (min-width: 1280px) {
+}
