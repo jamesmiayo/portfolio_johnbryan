@@ -7,7 +7,8 @@ const Banner = () => {
     <section id="home" className="container container__banner">
       <div className="banner-text">
         <h1>
-          Looking for a freelance
+          Looking for a <br />
+          freelance
           <span>
             <h1 className="highlights">
               Architect <span>?</span>
