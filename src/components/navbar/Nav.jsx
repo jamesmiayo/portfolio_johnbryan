@@ -6,7 +6,7 @@ import { GiClockwork } from 'react-icons/gi';
 import { MdMarkEmailUnread } from 'react-icons/md';
 
 import { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa';
+// import { FaBars, FaTimes } from 'react-icons/fa';
 import { MdArchitecture } from 'react-icons/md';
 import { SiProtractor } from 'react-icons/si';
 
