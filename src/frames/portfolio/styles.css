@@ -24,9 +24,10 @@
 }
 
 .card__portfolio h2 {
-  color: var(--color-light);
-  font-weight: 100;
+  color: var(--color-red);
+  font-weight: 500;
   font-size: large;
+  padding-top: 1rem;
 }
 
 .swiper-button-prev {

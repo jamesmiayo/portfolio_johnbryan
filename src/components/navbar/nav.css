@@ -87,13 +87,13 @@ nav a.active {
     right: 10px;
     top: 10px;
     /* z-index: 11; */
-    background: var(--color-dark);
+    background: var(--color-darkcolor);
     cursor: pointer;
     color: var(--color-red);
     border-radius: 0.5rem;
     padding: 5px;
 
-    border: 2px solid var(--color-dark);
+    border: 2px solid var(--color-lightbrown);
   }
 
   .navbar__container nav {

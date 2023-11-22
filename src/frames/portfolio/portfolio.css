@@ -27,12 +27,6 @@
   /* z-index: 1; */
 }
 
-.info__detail .text-detail {
-  color: var(--color-darkcolor);
-  text-align: left;
-  font-size: 0.7rem;
-}
-
 /* ==================MEDIA QUERIES (smartphones - small devices) =========================== */
 
 @media screen and (max-width: 767px) {
